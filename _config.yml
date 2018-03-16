@@ -97,10 +97,10 @@ google_analytics:      UA-115821873-1
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons:         [about, newsletter, related]
+  post_addons:         [about, resume, newsletter, related]
 
   # Configure the order of complementary content on project pages
-  project_addons:      [about, newsletter, other]
+  project_addons:      [about, resume, newsletter, other]
 
   # If you do not use Google Fonts, set to `true`.
   no_google_fonts:     false
