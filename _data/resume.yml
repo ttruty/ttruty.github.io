@@ -1,20 +1,80 @@
-# If you have a `resume.json` file, copy it into `_data` and delete this file.
-# If you don't have a JSON Resume you can just edit this YAML file instead.
-# See also: <https://jsonresume.org/>.
-basics:
-  name: "Timothy Truty"
-  label: "Research Specialist"
-  picture: "/assets/img/face-tim3.png"
-  email: "ttruty@gmail.com"
-  phone: ""
-  website: "https://ttruty.github.io/about/"
-  summary: >
-    **Aging Researcher with a focus on technology and devices**.
-    Tim is from Chicago, IL and works and the RUSH ALZHEIMERS DISEASE CENTER as a project coordinator.
-    Focusing on research devices and emerging technology to advance research.
-    He has earned a bachelor's degree from the Illinois State University in Psychology.
-    He is currently enrolled in a Masters program in INFORMATION TECHNOLOGY AND MANAGEMENT at IIT specializing in digital systems and embedded tech.
-    While his work focuses on aging research,
-    mostly innovating data collections with devices,
-    his non-work interests range widely,
-    everything from video games design, bicycle maintenance, and Midwestern skiing.
+
+# The primary author of this blog.
+# Must be the same as `author` in `_config.yml`.
+# Change `author1` to your shortname.
+author1:
+  name:              Tim Truty
+  email:             ttruty@gmail.com
+
+  # Used at the bottom of each page and at the top of the `about` layout
+  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  about:             |
+    Aging researcher with a focus on using technology to advance aging research
+  #  Open `_data/authors.yml` to edit this text.
+  # This photo will be used in the about section
+  picture:
+    path:            /assets/img/face-tim3.png
+    # srcset is optional, but can be used to provide higher res versions for retina displays
+    srcset:
+      1x:            /assets/img/face-tim3.png
+      2x:            /assets/img/face-tim3.png
+
+  # Social media icons in sidebar
+  # Comment/uncommet to show/hide
+  # Rearrange to change the order in which they appear
+  social:
+    twitter:         trutylicious
+    github:          ttruty
+    email:           mailto:ttruty@gmail.com
+    # rss:             https://<url>/feed.xml
+    # facebook:        <username>
+    # google:          <number>
+    # vk:              <username>
+    # youtube:         <string_string_string>
+    # vimeo:           <username>
+    # vine:            <username>
+    # spotify:         <user>/<number>
+    # soundcloud:      <username>
+    # lastfm:          <username>
+    # instagram:       <username>
+    # flickr:          <string@string>
+    # 500px:           <username>
+    # dribbble:        <username>
+    # behance:         <username>
+    # deviantart:      <username>
+    # ello:            <username>
+    # twitch:          <username>
+    # steam:           <number>
+    # reddit:          <username>
+    # tumblr:          <username>
+    # pinterest:       <username>
+    # foursquare:      <number>
+    # yelp:            <string>
+    # stackoverflow:   <number/username>
+    # npm:             <username>
+    # hackernews:      <username>
+    # trello:          <firstnamelastname>
+    linkedin:          timothy-truty-707a4659
+    # xing:            <firstname_lastname_counter>
+    # blogger:         <number>
+    # delicious:       <username>
+    # stumbleupon:     <username>
+    # paypal:          <username>
+    # download:        https://github.com/qwtel/hydejack-starter-kit/archive/v7.5.0.zip
+
+# Another author (optional)
+author2:
+  name:              <firtname> <lastname>
+  email:             <mail@domain.tld>
+  about:             |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Open `_data/authors.yml` to edit this text.
+  picture:           https://placehold.it/128x128
+  twitter:           <username>
+  github:            <username>
+  accent_color:      '#268bd2'
+  accent_image:
+    background:      '#202020'
+    overlay:         false
