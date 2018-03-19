@@ -1,7 +1,7 @@
 ---
 # This page uses Hydejack's `about` layout, which shows the primary author's picture and about text at the top.
 # You can change it to the regular `page` layout if you want.
-layout: resume
+layout: page
 
 # The title of the page.
 title: Resume
@@ -19,6 +19,7 @@ hide_description: true
 menu: true
 order: 4
 ---
+
 TEST TEST TEST RESUME TEST TEST TEST
 {:.lead}
 
