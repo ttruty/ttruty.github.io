@@ -1,0 +1,71 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @ttruty
+Sign out
+23
+629 512 jglovier/resume-template
+ Code  Issues 5  Pull requests 0  Projects 1  Wiki  Insights
+resume-template/_includes/icon-links.html
+858378d  on Aug 10, 2017
+@clyons clyons Updated social links schema to ‘sameAs’ instead of ‘url’
+@jglovier @fbau3r @clyons
+     
+42 lines (33 sloc)  1.99 KB
+<!-- and guess where these are defined? Yup, you guessed it: the _config.yml file -->
+{% if site.resume_social_links %}
+<ul class="icon-links">
+
+  <!-- GitHub link -->
+  {% if site.resume_social_links.resume_github_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_github_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-github.html %}</a></li>
+  {% endif %}
+
+  <!-- Twitter link -->
+  {% if site.resume_social_links.resume_twitter_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_twitter_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-twitter.html %}</a></li>
+  {% endif %}
+
+  <!-- Dribbble link -->
+  {% if site.resume_social_links.resume_dribbble_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_dribbble_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-dribbble.html %}</a></li>
+  {% endif %}
+
+  <!-- Facebook link -->
+  {% if site.resume_social_links.resume_facebook_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_facebook_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-facebook.html %}</a></li>
+  {% endif %}
+
+  <!-- LinkedIn link -->
+  {% if site.resume_social_links.resume_linkedin_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_linkedin_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-linkedin.html %}</a></li>
+  {% endif %}
+
+  <!-- Instagram link -->
+  {% if site.resume_social_links.resume_instagram_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_instagram_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-instagram.html %}</a></li>
+  {% endif %}
+
+  <!-- Website link -->
+  {% if site.resume_social_links.resume_website_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_website_url }}" class="icon-link" itemprop="url">{% include icons/icon-website.html %}</a></li>
+  {% endif %}
+
+</ul>
+{% endif %}
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
