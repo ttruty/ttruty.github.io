@@ -13,7 +13,6 @@ menu: true
   <script src="boilerplate.hbs" type="text/x-handlebars-template"></script>
   <script type="text/javascript">
     $(document).ready(function() {
-      $(document).autoBars(function() {
         $.getJSON("resume.json", function(json) {
 
           var data = { "resume" : json};
@@ -25,7 +24,6 @@ menu: true
            var err = textStatus + ", " + error;
            console.log( "Request Failed: " + err );
          });
-      });
     })
   </script>
 </head>
