@@ -20,8 +20,8 @@ menu: true
 order: 4
 ---
 
-THIS is the resume page
 
+THIS is the resume page
 {:.lead}
 
 [blog]: https://ttruty.github.io/blog/
