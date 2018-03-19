@@ -3,16 +3,16 @@
 layout: post
 
 # The title of your post
-title: First Blog Post
+title: Second Blog Post
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  This is the First Blog post I have ever written; lets see how this works
+  Second Blog
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
-image: https://blogs.constantcontact.com/start-blog/
+image: assests/img/download.png
 
 # You can hide the description and/or image from the output
 # (only visible to search engines) by setting:
@@ -28,15 +28,12 @@ tags: [example, content]
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
 
-This is a my first blog post, and website for that matter. This is just to see how things are working.
-I am going to leave all the sample text below so that I can copy and paste stuff later if need be.
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Example to post. Trail 2
 
 
-# Header 1
+# This is a blog post
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+trying to post on my phone
 
 ## Header 2
 
