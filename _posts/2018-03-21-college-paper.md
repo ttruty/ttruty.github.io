@@ -37,4 +37,4 @@ The attached paper is almost 10 years old. It is a work done for my Psychology s
 > Illinois State University with Dr. Binning. This demonstrated my begining interesting in how to combine aging and technology. 
 > It may be a bit rough or wordy... It was college... I did get an A.
 
-<iframe width="560" height="315" src="https://docs.google.com/document/d/e/2PACX-1vRiKCU77SRiApUdhwlvLTcyf_W3iDJ5SKJyldJiZkHJhaXGVww-3YFZghqFLfxyVuVoYG8y-tnwis6l/pub?embedded=true"></iframe>
+<iframe width="800" height="800" src="https://docs.google.com/document/d/e/2PACX-1vRiKCU77SRiApUdhwlvLTcyf_W3iDJ5SKJyldJiZkHJhaXGVww-3YFZghqFLfxyVuVoYG8y-tnwis6l/pub?embedded=true"></iframe>
