@@ -26,6 +26,6 @@ The integration of technology and aging research is a passion of mine. Aging dig
 {:.lead}
 
 [blog]: https://ttruty.github.io/blog/
-[portfolio]: https://ttruty.github.io/portfolio/
+[portfolio]: https://github.com/ttruty/
 [resume]: https://ttruty.github.io/resume/
 [welcome]: https://ttruty.github.io/
