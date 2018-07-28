@@ -35,19 +35,19 @@ The devices mainly focus on mobility, but some are used to get at a more granula
 
 I will name each device and give a short descrition I am not going to go into brand detail, just going to focus on the general characteristic:
 1. Gait Test Acceleromter
-	*This is a triaxial accelerometer used on a variety of specific movement tests: like sit-to-stand and 360-turns
-	*Worn only for about 20 minutes for tasks
-	*Sample rate of 100 Hz
-	*Biomechanical Engineers used this data to craft analysis tools and find calculated measures like walking speed and body sway
+	* This is a triaxial accelerometer used on a variety of specific movement tests: like sit-to-stand and 360-turns
+	* Worn only for about 20 minutes for tasks
+	* Sample rate of 100 Hz
+	* Biomechanical Engineers used this data to craft analysis tools and find calculated measures like walking speed and body sway
 2. 10 Day Activity Watch 
-	*Also triaxial accelerometer but worn continuosly for 10 days
-	*Sample rate 40 Hz
-	*Used to meaure sleep metrics and activitly level
+	* Also triaxial accelerometer but worn continuosly for 10 days
+	* Sample rate 40 Hz
+	* Used to meaure sleep metrics and activitly level
 3. Smart Pen
-	*Optical smart pen that digitizes writing tasks
-	*MMSE writing tasks and clock drawing
-	*Time and writing data points
+	* Optical smart pen that digitizes writing tasks
+	* MMSE writing tasks and clock drawing
+	* Time and writing data points
 4. Sleep Apnea Testing Machine
-	*Worn for one night on the hand and finger to get sleep apnea measures
+	* Worn for one night on the hand and finger to get sleep apnea measures
 
 The data from these devices is combined with the memory testing and health questionares completed during annual testing to see a whole picture of particiant aging and health
