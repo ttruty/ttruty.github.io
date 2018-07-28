@@ -27,7 +27,7 @@ tags: [research, tech]
 
 
 
-# Smart Homes for Aging Research
+# Smart Homes
 
 There is new research taking place in the aging cohort that is focusing on what aging in the home looks like. This research is the first of its kind. It gains a wealth of data from sensors and devices in the home.
 
