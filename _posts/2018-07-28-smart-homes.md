@@ -31,7 +31,7 @@ tags: [research, tech]
 
 There is new research taking place in the aging cohort that is focusing on what aging in the home looks like. This research is the first of its kind. It gains a wealth of data from sensors and devices in the home.
 
-I am on of the main coordinators of this research project on the Alzheimer's Center.
+I am one of the main coordinators of this research project on the Alzheimer's Center.
 While having all of these sensors and devices in the home may seem invasive, we are getting positive feed back from the particants who agreed to it.
 
 
