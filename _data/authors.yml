@@ -23,14 +23,14 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         trutylicious
+    # twitter:         trutylicious
     github:          ttruty
     email:           mailto:ttruty@gmail.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
     # vk:              <username>
-    # youtube:         <string_string_string>
+    youtube:         https://www.youtube.com/channel/UCugPMSC3cm8DMTKoT2ZbhzQ?view_as=subscriber
     # vimeo:           <username>
     # vine:            <username>
     # spotify:         <user>/<number>
