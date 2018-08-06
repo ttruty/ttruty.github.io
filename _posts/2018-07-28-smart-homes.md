@@ -7,7 +7,7 @@ title: Smart Homes for Aging Research
 
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  New Study Involving Smart Home Technology in Aging Research. Each home is "wired" up (actually almost all of the tech ionvolved is wireless. The hub computer streams all the data back to us and we can collect more data than we currently know what to do with! ![SmartHome]({{ "/assets/img/smart-home.png" | absolute_url }})
+  New Study Involving Smart Home Technology in Aging Research. Each home is "wired" up (actually almost all of the tech ionvolved is wireless. The hub computer streams all the data back to us and we can collect more data than we currently know what to do with!
 
 
 # (Optional) Link to an image that represents your blog post.
@@ -31,6 +31,8 @@ tags: [research, tech]
 
 
 # Smart Homes
+
+![SmartHome]({{ "/assets/img/smart-home.png" | absolute_url }})
 
 There is new research taking place in the aging cohort that is focusing on what aging in the home looks like. This research is the first of its kind. It gains a wealth of data from sensors and devices in the home.
 
