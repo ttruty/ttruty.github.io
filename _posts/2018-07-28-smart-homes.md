@@ -1,12 +1,34 @@
 ---
+# Posts need to have the `post` layout
 layout: post
+
+# The title of your post
 title: Smart Homes for Aging Research
+
+# This description is used to preview the page on search engines, social media, etc.
 description: >
-  New Study Involving Smart Home Technology in Aging Research. Each home is "wired" up (actually almost all of the tech ionvolved is wireless. The hub computer streams all the data back to us and we can collect more data than we currently know what to do with!
-image: /assets/img/face_tim.jpg
+  New Study Involving Smart Home Technology in Aging Research. Each home is "wired" up (actually almost all of the tech ionvolved is wireless. The hub computer streams all the data back to us and we can collect more data than we currently know what to do with! ![SmartHome]({{ "/assets/img/smart-home.png" | absolute_url }})
+
+
+# (Optional) Link to an image that represents your blog post.
+# image: 
+
+
+# You can hide the description and/or image from the output
+# (only visible to search engines) by setting:
+# hide_description: false
+# hide_image: false
+
+# (Optional) Each post can have zero or more categories, and zero or more tags.
+# The difference is that categories will be part of the URL, while tags will not.
+# E.g. the URL of this post is <site.baseurl>/hydejack/2017/11/23/example-content/
 categories: [research]
 tags: [research, tech]
+# If you want a category or tag to have its own page,
+# check out `_featured_categories` and `_featured_tags` respectively.
 ---
+
+
 
 # Smart Homes
 
