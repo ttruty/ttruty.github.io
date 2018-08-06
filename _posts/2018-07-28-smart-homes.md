@@ -8,9 +8,10 @@ title: Smart Homes for Aging Research
 # This description is used to preview the page on search engines, social media, etc.
 description: >
   New Study Involving Smart Home Technology in Aging Research. Each home is "wired" up (actually almost all of the tech ionvolved is wireless. The hub computer streams all the data back to us and we can collect more data than we currently know what to do with!
-image: assets/img/smart-home.png
+
 
 # (Optional) Link to an image that represents your blog post.
+image: assets/img/smart-home.png
 
 # You can hide the description and/or image from the output
 # (only visible to search engines) by setting:
