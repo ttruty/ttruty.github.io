@@ -7,11 +7,10 @@ title: Smart Homes for Aging Research
 
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  New Study Involving Smart Home Technology in Aging Research
+  New Study Involving Smart Home Technology in Aging Research. 
+image: assets/img/smart-home.png
 
 # (Optional) Link to an image that represents your blog post.
-[![SmartHome](assets/img/smart-home.png)]
-
 
 # You can hide the description and/or image from the output
 # (only visible to search engines) by setting:
