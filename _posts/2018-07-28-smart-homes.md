@@ -11,7 +11,7 @@ description: >
 
 
 # (Optional) Link to an image that represents your blog post.
-image: ![SmartHome]({{ "/assets/img/smart-home.png" | absolute_url }})
+image: "/assets/img/smart-home.png"
 
 
 # You can hide the description and/or image from the output
