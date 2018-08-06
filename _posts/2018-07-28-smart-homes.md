@@ -3,7 +3,7 @@ layout: post
 title: Smart Homes for Aging Research
 description: >
   New Study Involving Smart Home Technology in Aging Research. Each home is "wired" up (actually almost all of the tech ionvolved is wireless. The hub computer streams all the data back to us and we can collect more data than we currently know what to do with!
-image: /assets/img/smart-home.png
+image: /assets/img/face_tim.jpg
 categories: [research]
 tags: [research, tech]
 ---
