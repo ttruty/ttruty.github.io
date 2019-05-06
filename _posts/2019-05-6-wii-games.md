@@ -4,7 +4,7 @@ layout: post
 
 # The title of your post
 title: Gaming Grandparents
-image: {{ "/assets/wii_post/wii1.jpg" | absolute_url }}
+image: assets/wii_post/wii1.jpg
 # This description is used to preview the page on search engines, social media, etc.
 description: >
   I play video games with older people. This is one of the things I really enjoy. I try to play all kinds of different games with residents of retirement and nursing homes, but it always seems to return to Wii bowling. I have been playing video games my entire life. I would say I am a gaming expert, but when it comes to Wii Bowling I lose... a lot. I try to win but older people living in retirement or nursing homes have alot of time on thier hands. Time to hone their craft. And that craft is often-times Wii bowling. 
