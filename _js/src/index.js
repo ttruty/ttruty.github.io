@@ -1,5 +1,5 @@
 // # src / index.js
-// Copyright (c) 2018 Milovan Tomašević <https://www.milovantomasevic.com/>
+// Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -28,8 +28,6 @@ import "./images";
 import "./drawer";
 import "./push-state";
 import "./katex";
-import "./pro/dark-mode";
-import "./pro/cookies-banner";
 
 window.ResizeObserver = window.ResizeObserver || ResizeObserver;
 smoothscroll.polyfill();

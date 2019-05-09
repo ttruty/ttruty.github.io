@@ -1,20 +1,17 @@
 # Config
 # ========================================================================================
 
-# IMPORTANT: Set the URL of your page.
+# IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
 url:                   https://ttruty.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
-#
-# When hosting your site in a subdirectory of a server, set to /<name of directory>
-# (with leading /, but without the < >)
+# When your site sits in a subdirectory, set to /<name of directory>
+# (with leading /, but without the < >).
 # Use the empty string '' otherwise.
-#
-# When using GitHub Pages, set to '' when hosting a user- or organization page,
-# i.e. when the name of the repository looks like <username>.github.io.
-# Otherwise, set to /<name of repository> (with leading /, but without the < >).
+# For GitHub project sites, this is usually the name of the project,
+# e.g. `/hydejack`.
 baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
@@ -30,28 +27,50 @@ description:           >
   Aging researcher. 
   Work with Epidemiological studies using devices and 
   tech to advance Alzheimer's and aging research.
+  
 # A shorter description for the sidebar.
 tagline:               >
   Advancing aging research with technology
-# A list of keywords for your blog.
-keywords:              [aging research, Aging Research Technology, aging, research, aging research tech,alzheimer's,  alzheimers, research, alzheimer's disease, alzheimers disease]
 
-# Used by jekyll-seo-tag.
+# A list of keywords for your blog
+keywords:              []
+
+# A (square) logo for your site.
+# If provided, it will be shown at the top of the sidebar.
+# It also used by the `jekyll-seo-tag` plugin.
 logo:                  /assets/img/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
-# Duplication is necessary due to the `jekyll-feed`, `jekyll-seo-tag` plugin.
 author:
   name:                Tim Truty
   email:               ttruty@gmail.com
   # Used by `jekyll-seo-tag`:
-  # twitter:             Trutylicious
+  # twitter:             <username>
+
+# Add links to the sidebar.
+menu:
+  - title:             Blog
+    url:               /blog/
+  - title:             Projects
+    url:               /projects/
+  - title:             Documentation
+    url:               /docs/
+  - title:             About
+    url:               /about/
+
+# Add links to the footer.
+# Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
+# legal:
+#   - title:             Impress
+#     url:               /impress/
+#   - title:             Cookies Policy
+#     url:               /cookies-policy/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2018. All rights reserved.
 
 # Format of the permalinks
-permalink:             pretty
+permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              5
@@ -63,32 +82,24 @@ paginate_path:         /blog/page-:num/
 
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          '#4fb1ba'
+accent_color:          rgb(79,177,186)
+
+# This is used for the `theme-color` meta tag,
+# which changes the background color of the browser UI in certain browsers.
+# Defaults to `accent_color`.
+theme_color:           rgb(25,55,71)
 
 # The string encoding which fonts to fetch from Google Fonts.
-# See: <https://qwtel.com/hydejack/docs/configuration/>
-google_fonts:          Roboto+Slab:700|Noto+Sans:400,400i,700,700i
+# See: <https://hydejack.com/docs/configuration/>
+google_fonts:          Roboto+Slab:400|Noto+Sans:400,400i,700,700i
 
 # The text font. Expects a string that is a valid CSS font-family value.
+# To change font-weight, see _sass/variables.scss
 font:                  Noto Sans, Helvetica, Arial, sans-serif
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
+# To change font-weight, see _sass/variables.scss
 font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
-
-# 3rd Party Integrations
-# ----------------------------------------------------------------------------------------
-
-# Setting a disqus shortname will enable the comment section on
-# pages with `comments: true` in the front matter.
-# disqus:                <disqus_shortname>
-
-# Set your Google Analytics id to receive `pageview` events.
-# To remove Google Anaylics from your page, remove the line below.
-google_analytics:      UA-115821873-1
-
-# Setting a tinyletter username will enable the newsletter subscription box.
-# PRO version only!
-# tinyletter:            <tinyletter_username>
 
 defaults:
   - scope:
@@ -118,30 +129,19 @@ defaults:
         type:          WebPage
 
 
-# file: _config.yml
-#defaults:
-#  - scope:
-#      path: blog.md
-#    values:
-#      menu: true
-#      order: 1
-#  - scope:
-#      path: projects.md
-#    values:
-#      menu: true
-#      order: 2
-#  - scope:
-#      path: about.md
-#    values:
-#      menu: true
-#      order: 3
-#  - scope:
-#      path: resume.md
-#    values:
-#      menu: true
-#      order: 4
+# 3rd Party Integrations
+# ----------------------------------------------------------------------------------------
 
+# Set your Google Analytics id to receive `pageview` events.
+# To remove Google Anaylics from your page, remove the line below.
+google_analytics:      UA-115821873-1
 
+# Setting a disqus shortname will enable the comment section on
+# pages with `comments: true` in the front matter.
+# disqus:                <disqus_shortname>
+
+# Setting a tinyletter username will enable the newsletter subscription box.
+# tinyletter:            <tinyletter_username>
 
 # Hydejack Settings
 # ----------------------------------------------------------------------------------------
@@ -158,7 +158,7 @@ hydejack:
   no_google_fonts:     false
 
   # Set to `true` if you don't want to show an icon indicating external links
-  no_mark_external:    false
+  no_mark_external:    true
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
   no_push_state:       false
@@ -166,9 +166,16 @@ hydejack:
   # Set to `true` if you want to disable the drawer
   no_drawer:           false
 
+  # Set to `true` to prevent usage of `hy-img` (lazy-loading images).
+  no_img:              false
+
   # Set to `true` if you do not want parts of the css inlined in <head/>
-  # This *may* be benefitial when serving the site over HTTP/2.
+  # This will increase site build speed dramatically!
   no_inline_css:       false
+
+  # Set to `true` if you don't intend on changing the accent color on a per-page basis.
+  # This will increase site build speed!
+  no_page_style:       false
 
   # Code blocks and tables "break" the layout by spanning the full available width.
   # Set this to true if you want them to be the same width as other content.
@@ -185,13 +192,13 @@ hydejack:
   # Set to `true` when building with the `--lsi` option
   use_lsi:             false
 
-# When using Google Analytics, set to `true` to display a cookie notice banner.
+  # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.
-  cookies_banner:      true
+  cookies_banner:      false
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
   advertise:           false
-  
+
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
     # Set to `true` to always use the dark theme.
@@ -204,17 +211,26 @@ hydejack:
 
     # Set to `true` to allow visitors to switch between light and dark mode.
     icon:              true
-  
+
+  # ⚡️ DANGER ZONE ⚡️
+  # ----------------
+  # This is an _experimental_ feature.
+  # Only use if you know what Service Workers are and how they can impact your site!
+  offline:
+    enabled:           false
+    cache_version:     1
+
+
 # Collections
 # ========================================================================================
 
 collections:
   featured_categories:
-    permalink:         /category/:name/
+    permalink:         /:name/
     output:            true
 
   featured_tags:
-    permalink:         /tag/:name/
+    permalink:         /tag-:name/
     output:            true
 
   projects:
@@ -226,31 +242,32 @@ collections:
 # ========================================================================================
 
 exclude:
+  - vendor
   - Gemfile
   - Gemfile.lock
+  - node_modules
   - package.json
   - package-lock.json
   - webpack.config.js
+  - "*.gemspec"
   - _js
   - _plugins
-
+  - .sass-cache
 include:
   - LICENSE.md
 
-# Plugins and Plugin Configuration
+
+# Plugins
 # ========================================================================================
 
 plugins:
-  - jekyll-avatar
   - jekyll-default-layout
   - jekyll-feed
-  - jekyll-gist
   - jekyll-optional-front-matter
   - jekyll-paginate
   - jekyll-readme-index
   - jekyll-redirect-from
   - jekyll-relative-links
-  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-titles-from-headings
@@ -259,8 +276,7 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # theme: jekyll-theme-hydejack
-remote_theme: jekyll-theme-hydejack-pro
-
+# remote_theme: qwtel/hydejack@gem
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
@@ -276,7 +292,7 @@ remote_theme: jekyll-theme-hydejack-pro
 
 # Used for Twitter cards
 # twitter:
-#   username:            <twitter handle>
+#   username:            <shortname>
 
 # Used for Facebook open graph
 # facebook:
@@ -286,10 +302,10 @@ remote_theme: jekyll-theme-hydejack-pro
 
 # Used on index and about sites
 # social:
-#   name:                Tim Truty
+#   name:                <firstname> <lastname>
 #   links:
-#     - https://twitter.com/trutylicious
-#     - https://github.com/ttruty
+#     - https://twitter.com/<username>
+#     - https://github.com/<username>
 
 
 # Other Plugins
@@ -300,6 +316,7 @@ optional_front_matter:
 
 readme_index:
   remove_originals:    true
+  with_frontmatter:    true
 
 relative_links:
   collections:         true
@@ -316,14 +333,11 @@ kramdown:
     preview_as_code:   true
 
 compress_html:
-  comments:            ['<!-- ', ' -->']
+  comments:            ["<!-- ", " -->"]
   clippings:           all
   endings:             all
+  ignore:
+    envs:              [development]
 
 sass:
   style:               compressed
-
-# If you are upgrading form v5 (or earlier), uncomment the lines below,
-# so that the location of the feed XML stays the same.
-# feed:
-#   path:                atom.xml

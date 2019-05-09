@@ -1,5 +1,5 @@
 <!--[if gt IE 8]><!---->
-{% capture style_url %}{% link assets/css/hydejack-8.1.1.css %}{% endcapture %}
+{% capture style_url %}{% link assets/css/hydejack-8.4.0.css %}{% endcapture %}
 {% capture icons_url %}{% link assets/icomoon/style.css %}{% endcapture %}
 {% capture fonts_url %}https://fonts.googleapis.com/css?family={{ google_fonts }}{% endcapture %}
 
@@ -22,15 +22,6 @@
   <style>
     {% capture to_scssify %}{% include styles/inline.scss %}{% endcapture %}
     {{ to_scssify | scssify }}
-
-    {% assign layout = page.layout %}
-    {% if layout == "projects" or layout == "project" or layout == "home" or layout == "welcome" %}
-      {% capture to_scssify %}{% include styles/pro/projects.scss %}{% endcapture %}
-      {{ to_scssify | scssify }}
-    {% elsif layout == "resume" %}
-      {% capture to_scssify %}{% include styles/pro/resume.scss %}{% endcapture %}
-      {{ to_scssify | scssify }}
-    {% endif %}
   </style>
 
   <link rel="preload" as="style" href="{{ style_url | relative_url }}" id="_stylePreload">
@@ -56,5 +47,7 @@
     {% endunless %}
   </noscript>
 {% endif %}
-{% include head/page-style.html %}
+{% unless site.hydejack.no_page_style %}
+  {% include head/page-style.html %}
+{% endunless %}
 <!--<![endif]-->

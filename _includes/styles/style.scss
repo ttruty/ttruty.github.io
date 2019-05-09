@@ -1,4 +1,4 @@
-// Copyright (c) 2018 Milovan Tomašević <https://www.milovantomasevic.com/>
+// Copyright (c) 2017 Florian Klampfer <https://qwtel.com/>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -24,9 +24,6 @@ $font-family:         {{ site.font         | default:"Noto Sans, Helvetica, Aria
 @import "variables";
 @import "my-variables";
 @import "mixins";
-
-$theme-color: {{ site.theme_color | default:'#193747' }};
-@import "pro/dark-mode";
 
 @import "reboot-mod";
 
@@ -55,11 +52,6 @@ $theme-color: {{ site.theme_color | default:'#193747' }};
   @import "hydejack/__link__/katex";
   @import "hydejack/__link__/footer";
 
-  @import "pro/projects";
-  @import "pro/resume";
-  @import "pro/bootstrap-mod/bootstrap";
-  @import "pro/message-newsletter";
-
   {% unless site.hydejack.no_mark_external or site.no_mark_external %}
     @import "hydejack/__link__/mark-external";
   {% endunless %}
@@ -68,7 +60,6 @@ $theme-color: {{ site.theme_color | default:'#193747' }};
   {% endunless %}
 
   @import "syntax";
-  @import "pro/syntax-dark";
   @import "spinner";
 
   // @import "my-inline";
@@ -98,11 +89,6 @@ $theme-color: {{ site.theme_color | default:'#193747' }};
   @import "hydejack/_katex.pre.scss";
   @import "hydejack/_footer.pre.scss";
 
-  @import "pro/projects";
-  @import "pro/resume";
-  @import "pro/bootstrap-mod/bootstrap";
-  @import "pro/message-newsletter";
-
   {% unless site.hydejack.no_mark_external or site.no_mark_external %}
     @import "hydejack/_mark-external.pre.scss";
   {% endunless %}
@@ -111,7 +97,6 @@ $theme-color: {{ site.theme_color | default:'#193747' }};
   {% endunless %}
 
   @import "syntax";
-  @import "pro/syntax-dark";
   @import "spinner";
 
   @import "my-inline";
@@ -129,4 +114,10 @@ $theme-color: {{ site.theme_color | default:'#193747' }};
     font-family: $font-family;
     h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading { font-family: $font-family-heading; }
   }
+
+  {% if site.hydejack.no_page_style %}
+    {% assign color       = site.accent_color | default:'#4fb1ba' %}
+    {% assign theme_color = site.theme_color  | default:'#193747' %}
+    {% include styles/page-style.scss color=color theme_color=theme_color %}
+  {% endif %}
 {% endunless %}

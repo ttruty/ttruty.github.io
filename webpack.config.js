@@ -12,7 +12,7 @@ const {
 
 const { name: filename, version } = require("./package.json");
 
-const banner = readFileSync(resolve("./_includes/headerMT.txt"), "utf-8");
+const banner = readFileSync(resolve("./_includes/header.txt"), "utf-8");
 
 const flatten = [(a, x) => a.concat(x), []];
 
