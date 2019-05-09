@@ -236,7 +236,8 @@ exclude:
   - _js
   - _plugins
   - .sass-cache
-  include:
+
+include:
   - LICENSE.md
 
 # Plugins and Plugin Configuration
