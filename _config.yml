@@ -226,7 +226,6 @@ collections:
 # ========================================================================================
 
 exclude:
-  - vendor
   - Gemfile
   - Gemfile.lock
   - node_modules
