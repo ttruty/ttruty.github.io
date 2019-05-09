@@ -1,4 +1,4 @@
-// Copyright (c) 2017 Florian Klampfer <https://qwtel.com/>
+// Copyright (c) 2018 Milovan Tomašević <https://www.milovantomasevic.com/>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -18,61 +18,61 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-{% assign font_heading = site.font_heading | default:"'Roboto Slab', Helvetica, Arial, sans-serif" %}
-{% assign font =         site.font         | default:"'Noto Sans', Helvetica, Arial, sans-serif" %}
-
-$font-family-heading: {{ font_heading }};
-$font-family: {{ font }};
+$font-family-heading: {{ site.font_heading | default:"Roboto Slab, Helvetica, Arial, sans-serif" }};
+$font-family:         {{ site.font         | default:"Noto Sans, Helvetica, Arial, sans-serif"   }};
 
 @import "variables";
 @import "my-variables";
 @import "mixins";
 
+$theme-color: {{ site.theme_color | default:'#193747' }};
+@import "pro/dark-mode";
+
 @import "reboot-mod";
 
 {% unless site.hydejack.no_inline_css or jekyll.environment == 'development' %}
-  @import "pooleparty/__link/base";
-  @import "pooleparty/__link/type";
-  @import "pooleparty/__link/table";
-  @import "pooleparty/__link/footer";
-  @import "pooleparty/__link/footnotes";
-  @import "pooleparty/__link/code";
-  @import "pooleparty/__link/posts";
-  @import "pooleparty/__link/related";
-  @import "pooleparty/__link/message";
-  @import "pooleparty/__link/pagination";
+  @import "pooleparty/__link__/base";
+  @import "pooleparty/__link__/type";
+  @import "pooleparty/__link__/table";
+  @import "pooleparty/__link__/footer";
+  @import "pooleparty/__link__/footnotes";
+  @import "pooleparty/__link__/code";
+  @import "pooleparty/__link__/posts";
+  @import "pooleparty/__link__/related";
+  @import "pooleparty/__link__/read-more";
+  @import "pooleparty/__link__/message";
+  @import "pooleparty/__link__/pagination";
 
-  @import "hydejack/__link/base";
-  @import "hydejack/__link/sidebar";
-  @import "hydejack/__link/social";
-  @import "hydejack/__link/menu";
-  @import "hydejack/__link/content";
-  @import "hydejack/__link/avatar";
-  @import "hydejack/__link/katex";
-  @import "hydejack/__link/footer";
+  @import "hydejack/__link__/base";
+  @import "hydejack/__link__/utilities";
+  @import "hydejack/__link__/links";
+  @import "hydejack/__link__/images";
+  @import "hydejack/__link__/sidebar";
+  @import "hydejack/__link__/social";
+  @import "hydejack/__link__/menu";
+  @import "hydejack/__link__/content";
+  @import "hydejack/__link__/avatar";
+  @import "hydejack/__link__/katex";
+  @import "hydejack/__link__/footer";
+
+  @import "pro/projects";
+  @import "pro/resume";
+  @import "pro/bootstrap-mod/bootstrap";
+  @import "pro/message-newsletter";
 
   {% unless site.hydejack.no_mark_external or site.no_mark_external %}
-    @import "hydejack/__link/mark-external";
+    @import "hydejack/__link__/mark-external";
   {% endunless %}
   {% unless site.hydejack.no_break_layout %}
-    @import "hydejack/__link/break-layout";
+    @import "hydejack/__link__/break-layout";
   {% endunless %}
 
   @import "syntax";
+  @import "pro/syntax-dark";
   @import "spinner";
 
   // @import "my-inline";
   @import "my-style";
-
-  {% unless site.hydejack.no_google_fonts or site.no_google_fonts %}
-    .wf-active {
-      font-family: {{ font }};
-
-      h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading {
-        font-family: {{ font_heading }};
-      }
-    }
-  {% endunless %}
 {% else %}
   @import "pooleparty/_base.pre.scss";
   @import "pooleparty/_type.pre.scss";
@@ -82,10 +82,14 @@ $font-family: {{ font }};
   @import "pooleparty/_code.pre.scss";
   @import "pooleparty/_posts.pre.scss";
   @import "pooleparty/_related.pre.scss";
+  @import "pooleparty/_read-more.pre.scss";
   @import "pooleparty/_message.pre.scss";
   @import "pooleparty/_pagination.pre.scss";
 
   @import "hydejack/_base.pre.scss";
+  @import "hydejack/_utilities.pre.scss";
+  @import "hydejack/_links.pre.scss";
+  @import "hydejack/_images.pre.scss";
   @import "hydejack/_sidebar.pre.scss";
   @import "hydejack/_social.pre.scss";
   @import "hydejack/_menu.pre.scss";
@@ -93,6 +97,11 @@ $font-family: {{ font }};
   @import "hydejack/_avatar.pre.scss";
   @import "hydejack/_katex.pre.scss";
   @import "hydejack/_footer.pre.scss";
+
+  @import "pro/projects";
+  @import "pro/resume";
+  @import "pro/bootstrap-mod/bootstrap";
+  @import "pro/message-newsletter";
 
   {% unless site.hydejack.no_mark_external or site.no_mark_external %}
     @import "hydejack/_mark-external.pre.scss";
@@ -102,16 +111,22 @@ $font-family: {{ font }};
   {% endunless %}
 
   @import "syntax";
+  @import "pro/syntax-dark";
   @import "spinner";
 
   @import "my-inline";
   @import "my-style";
 
-  html {
-    font-family: {{ font }};
-  }
+  {% unless site.hydejack.no_google_fonts or site.no_google_fonts %}
+    {% assign font = font | split:',' | shift | join:',' %}
+    {% assign font_heading = font_heading | split:',' | shift | join:',' %}
+  {% endunless %}
 
-  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading {
-    font-family: {{ font_heading }};
+  html { font-family: {{ font | default:"serif" }}; }
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading { font-family: {{ font_heading | default:"serif" }}; }
+
+  .font-active {
+    font-family: $font-family;
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading { font-family: $font-family-heading; }
   }
 {% endunless %}
