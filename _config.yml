@@ -50,7 +50,7 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             Blog
-    url:               /my-blog/
+    url:               /blog/
   - title:             Projects
     url:               /projects/
   - title:             About
@@ -72,7 +72,7 @@ permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              5
-paginate_path:         /my-blog/page-:num/
+paginate_path:         /blog/page-:num/
 
 
 # Customizaton

@@ -1,7 +1,7 @@
 ---
 # file: !blog.md
 title: Blog
-permalink: /my-blog/
-slug: my-blog
+permalink: /blog/
+slug: blog
 sitemap: false
 ---
