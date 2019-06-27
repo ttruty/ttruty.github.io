@@ -19,7 +19,7 @@ description: >
 # (Optional) Each post can have zero or more categories, and zero or more tags.
 # The difference is that categories will be part of the URL, while tags will not.
 # E.g. the URL of this post is <site.baseurl>/hydejack/2017/11/23/example-content/
-categories: [Vr, Dev, Researcj]
+categories: [Vr, Dev, Research]
 tags: [gaming, unity, dev, vr, video games, elderly]
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
@@ -32,6 +32,13 @@ As of summer 2019, the VR thing seems to be growing and no longer just tech for 
 
 ![Oculus Quest]({{ "/assets/img/vr_research_post/quest.jpg" | absolute_url }})
 
+This hopes to squash the idea that VR is a tech that is destined to fail... as it was in the 80/90s. But now the tech is there where the user can truely feel "present" in a virtual world. We will return to this idea of "presence" later. While this is great news for the industry. It is my goal to push for the use of this tech to better the world (high hopes, I know). 
+I am force in this moment to refernece a Ray Bradbury book handed to me by a professor. **Dandelion Wine**. Specifically a entry about the invention of a "Happiness Machine".
+
+> Quote about Happiness machine
+
+I do not want to create *happiness*, but instead *saftey*. There are many situations where we; as researchers; would like to see how people would act in real world situations. Putting people in those situations might be dangerous, expecially if the people are frail, cognitively impaired, or suffering from various other conditions common with aging. In a VR game world we are able to observe (semi-) real world decision making and actions without putting the user at risk.
+ 
 ## How can we leverage games for research?
 
 > Post will be added to, I swear!
