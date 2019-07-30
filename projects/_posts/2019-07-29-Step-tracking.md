@@ -4,7 +4,7 @@ layout: post
 
 # The title of your post
 title: Simple Step Tracking Project
-image: assets/img/sst/title.jpg
+image: assets/img/sst/steptrackerimage.png
 # This description is used to preview the page on search engines, social media, etc.
 description: >
     A rapid prototyple to allow step tracking at foot level. Use case is to validate step tracking algorithms for wrist worns or other biomechanical devices. The device is wore around the ankle. The two main sensors are the force sensitive resistor (FSR) and an accelerometer/gyroscope module. The readings from these sensors are output to an SD card located on the device. Device is powered with a LiPo battery.
@@ -31,7 +31,7 @@ tags: [Arduino, dev]
 
 A rapid prototyple to allow step tracking at foot level. Use case is to validate step tracking algorithms for wrist worns or other biomechanical devices. The device is wore around the ankle. The two main sensors are the force sensitive resistor (FSR) and an accelerometer/gyroscope module. The readings from these sensors are output to an SD card located on the device. Device is powered with a LiPo battery.
 
-![S.S.T ](assets/img/sst/steptrackerimage.png)
+![S.S.T ]({{ "assets/img/sst/steptrackerimage.png" | absolute_url }})
 
 ## Project overview
 ### Required for project 
@@ -55,15 +55,13 @@ A rapid prototyple to allow step tracking at foot level. Use case is to validate
 - Make sure powered down to reinsert SD
 - Then reconnect battery
 
-![foot1](assets/img/sst/foot1.jpg)
+![foot1]({{ "assets/img/sst/foot1.jpg" | absolute_url }})
 
-![foot2](assets/img/sst/foot1.jpg)
-
-
+![foot2]({{ "assets/img/sst/foot1.jpg" | absolute_url }})
 
 
 #### Assembly
-![Fritzing sketch](assets/img/sst/SimpleStepTracking_bb.png)
+![Fritzing sketch]({{ "assets/img/sst/SimpleStepTracking_bb.png" | absolute_url }})
 
 <body>
 <h1>Bill of Materials: SimpleStepTracking.fzz</h1>
@@ -163,14 +161,14 @@ Unix Times stamp, ax, ay, az, gx, gy, gz, force
 
 #### Current Build
 
-![S.S.T ](assets/img/sst/sst1.jpg)
+![S.S.T ]({{ "assets/img/sst/sst1.jpg" | absolute_url }})
 
-![S.S.T ](assets/img/sst/sst2.jpg)
+![S.S.T ]({{ "assets/img/sst/sst2.jpg" | absolute_url }})
 
-![S.S.T ](assets/img/sst/sst3.jpg)
+![S.S.T ]({{ "assets/img/sst/sst3.jpg" | absolute_url }})
 
-![S.S.T ](assets/img/sst/sst4.jpg)
+![S.S.T ]({{ "assets/img/sst/sst4.jpg" | absolute_url }})
 
-![S.S.T ](assets/img/sst/sst5.jpg)
+![S.S.T ]({{ "assets/img/sst/sst5.jpg" | absolute_url }})
 
-![S.S.T ](assets/img/sst/sst6.jpg)
+![S.S.T ]({{ "assets/img/sst/sst6.jpg" | absolute_url }})
