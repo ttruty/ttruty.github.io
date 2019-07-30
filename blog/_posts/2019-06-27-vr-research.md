@@ -35,7 +35,7 @@ As of summer 2019, the VR thing seems to be growing and no longer just tech for 
 This hopes to squash the idea that VR is a tech that is destined to fail... as it was in the 80/90s. But now the tech is there where the user can truely feel "present" in a virtual world. We will return to this idea of "presence" later. While this is great news for the industry. It is my goal to push for the use of this tech to better the world (high hopes, I know). 
 I am force in this moment to refernece a Ray Bradbury book handed to me by a professor. **Dandelion Wine**. Specifically a entry about the invention of a "Happiness Machine".
 
-> Quote about Happiness machine
+> " ... the mistake you made is you forgot some hour, some day we all got to climb out of that thing and go back to dirty dishes and beds not made."
 
 I do not want to create *happiness*, but instead *saftey*. There are many situations where we; as researchers; would like to see how people would act in real world situations. Putting people in those situations might be dangerous, expecially if the people are frail, cognitively impaired, or suffering from various other conditions common with aging. In a VR game world we are able to observe (semi-) real world decision making and actions without putting the user at risk.
  
