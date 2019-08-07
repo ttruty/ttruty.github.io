@@ -58,3 +58,8 @@ The game is located here:
 
 ### Future Developemt
 - This framework allows more games to be added and can be a general game navigational menu framework
+
+### Acknowledgments
+- Images and music was taken from royalty free open license archives
+The main menu brain was edited from this artist [here](https://pxhere.com/en/photo/1370218)
+- The music is from Kevin MacLean [here](https://incompetech.com/music/)
