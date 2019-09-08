@@ -59,7 +59,9 @@ tags: [VR, Oculus]
 - Analysis of feasibility for aging and frail to use locomotion
 
 ## Background
-The main idea behind creating VR experience is to immerse the user in an environment where they can feel and react as if they would in the physical world. This immersion and feeling is often termed as "presence". Research is being done to look into the use of VR and cognitive health in the elderly[^fn1] [^fn2]. In order to create presence, the VR environment must respond to actions much like reality. This can make locomotion difficult as there are different constraints that impede what the user might want to do with what is possible based on the VR limitations. If the locomotion paradigm are improved they may even be able to assess constructs that would be difficult to observe in reality due to deficits or frailty. [^fn3]
+The main idea behind creating VR experience is to immerse the user in an environment where they can feel and react as if they would in the physical world. This immersion and feeling is often termed as "presence". Research is being done to look into the use of VR and cognitive health in the elderly[^fn1] [^fn2]. In order to create presence, the VR environment must respond to actions much like reality. This can make locomotion difficult as there are different constraints that impede what the user might want to do with what is possible based on the VR limitations. If the locomotion paradigm are improved they may even be able to assess constructs that would be difficult to observe in reality due to deficits or frailty. [^fn3] 
+
+Some VR Limitations:
 - All VR is not "room-scale" where you are able to walk around 1 to 1 with the VR experience.
 - VR is not body tracking every muscle or movement of the user, usually only one to two connection points (ie. touch controllers)
 - At any point the user is able to pull off the HMD to leave the VR experience
@@ -81,6 +83,8 @@ I made a simple demonstration as proof of concept in Unity 3D. The task is a sim
 ![Walking path]({{ "assets/img/vr_gait_img/walk_over.jpg" | absolute_url }})
 
 Initially this was completed with the touch-pad on the Oculus Go. After reading previous works about VR research with aging individuals; I realized there were many studies that used mouse[^fn5] and joysticks [^fn6]. Using the touch-pad on the controller for the Oculus Go requires minute thumb movements. But the use of a joystick would allow greater control with more gross motor movements. So I was able to connect a AdaFruit NRF52 micro-controller module to the HMD. (A more in detail right-up of this procedure will be in a github repository). With the connected micro-controller I realized I was not longer limited to the conventional movement methods of games and starting looking toward other locomotion methods to get at different constructs. Recently I constructed a [step tracking device](https://ttruty.github.io/projects/arduino/prototype/dev/2019-07-29-Step-tracking/) and started translating the device from saving raw data on an SD card to transfer that step data over BLE bluetooth to be used in Unity 3D. While this method does work it still needs refinement. I tested the concept sitting in a chair, mimicking the act of walking.
+
+> **CLICK ON IMAGE BELOW TO VIEW VIDEO**
 
 [![Alt text](https://img.youtube.com/vi/wGFj-F2yMsI/0.jpg)](https://www.youtube.com/watch?v=wGFj-F2yMsI)
 
