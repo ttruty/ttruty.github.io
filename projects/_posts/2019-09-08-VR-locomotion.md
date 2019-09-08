@@ -112,9 +112,7 @@ Using the findings of VR locomotion to create a VR experiences to observe memory
 
 [^fn2]: García-Betances RI, Arredondo Waldmeyer MT, Fico G and Cabrera-Umpiérrez MF. A succinct overview of virtual reality technology use in Alzheimer’s disease.Frontiers in Aging Neuroscience. 2015;80(7):1-8
 
-[^fn3]: Detecting navigational deficits in cognitive aging and Alzheimer disease using virtual reality
-Laura A Cushman, Karen Stein, Charles J Duffy
-Neurology 71 (12), 888-895, 2008
+[^fn3]: Laura A Cushman, Karen Stein, Charles J Duffy. Detecting navigational deficits in cognitive aging and Alzheimer disease using virtual reality. Neurology. 2008 Sep 16;71(12):888-95. doi: 10.1212/01.wnl.0000326262.67613.fe
 
 
 [^fn4]: Costas Boletsis. The New Era of Virtual Reality Locomotion: A Systematic Literature Review of Techniques and a Proposed Typology. In: Multimodal Technologies and Interact; 2017. DOI: 10.3390/mti1040024
