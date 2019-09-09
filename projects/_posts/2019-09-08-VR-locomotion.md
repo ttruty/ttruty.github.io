@@ -42,6 +42,8 @@ tags: [VR, Oculus]
     - Light weight and fairly comfortable to wear on face
     - One controller for menu navigation included
         - Controller has a touch-pad, trigger, and other buttons
+
+        ![Oculus Go]({{ "assets/img/vr_gait_img/oculus_go_super_look.gif" | absolute_url }})
     
 #### Bluetooth Peripheral
 - [Adafruit Feather NRF52](https://learn.adafruit.com/bluefruit-nrf52-feather-learning-guide?view=all)
