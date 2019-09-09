@@ -121,6 +121,5 @@ Using the findings of VR locomotion to create a VR experiences to observe memory
 
 [^fn6]: Blackman T, Calderon C, Flynn D, et al. Developing a Virtual Reality–Based Methodology for People with Dementia: A Feasibility Study. CyberPsychology and Behaviors. 2003;6(6):591-611
 
-[^fn7]: Glen M. Doniger, Michal Schnaider Beeri, Alex Bahar-Fuchs, et al. Virtual reality-based cognitive-motor training for middle-aged adults at high Alzheimer's disease risk: A randomized controlled trial. Alzheimer’s & Dementia: Translational Research & Clinical Interventions 4 (2018) 118-129
-Published online 2018 Mar 27. doi: 10.1016/j.trci.2018.02.005
+[^fn7]: Glen M. Doniger, Michal Schnaider Beeri, Alex Bahar-Fuchs, et al. Virtual reality-based cognitive-motor training for middle-aged adults at high Alzheimer's disease risk: A randomized controlled trial. Alzheimer’s & Dementia: Translational Research & Clinical Interventions 4 (2018) 118-129 Published online 2018 Mar 27. doi: 10.1016/j.trci.2018.02.005
 
