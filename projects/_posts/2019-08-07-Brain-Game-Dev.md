@@ -29,11 +29,6 @@ tags: [gamedev, Unity2d, dev]
 #  Simple Brain Game
 ## Developing a brain game
 
-The game is located here:
-
-[Tim's Brain Game](https://ttruty.github.io/BrainGame.html)
-
-
 ![Game menu]({{ "assets/img/braingame/menu1.png" | absolute_url }})
 
 ### Game overview
@@ -58,6 +53,11 @@ The game is located here:
 
 ### Future Developemt
 - This framework allows more games to be added and can be a general game navigational menu framework
+
+
+ <!-- blank line -->
+  <iframe src="https://ttruty.github.io/BrainGame.html" frameborder="1" allowfullscreen="true" width="1000" height="800"> </iframe>
+<!-- blank line -->
 
 ### Acknowledgments
 - Images and music was taken from royalty free open license archives
