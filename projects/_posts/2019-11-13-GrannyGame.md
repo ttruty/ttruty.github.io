@@ -4,7 +4,7 @@ layout: post
 
 # The title of your post
 title: Granny Game
-image: assets/img/grannypost/game.png
+image: assets/img/grannypost/game.jpg
 # This description is used to preview the page on search engines, social media, etc.
 description: >
     A rapid development project to showcase some game design skills with unity. The entire game was put together in about 3 days. It includes a menu, gameplay, and firebase connected leaderboard.
