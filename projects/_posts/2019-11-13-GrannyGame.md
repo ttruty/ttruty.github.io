@@ -4,7 +4,7 @@ layout: post
 
 # The title of your post
 title: Granny Game
-image: assets/img/grannygame/game.PNG
+image: assets/img/grannypost/game.png
 # This description is used to preview the page on search engines, social media, etc.
 description: >
     A rapid development project to showcase some game design skills with unity. The entire game was put together in about 3 days. It includes a menu, gameplay, and firebase connected leaderboard.
@@ -36,6 +36,6 @@ tags: [Unity2d, gameDev]
 
 
  <!-- blank line -->
-  <iframe src="https://ttruty.github.io/JackBox.html" frameborder="1" allowfullscreen="true" width="520" height="360"> </iframe>
+  <iframe src="https://ttruty.github.io/JackBox.html" frameborder="1" allowfullscreen="true" width="800" height="600"> </iframe>
 <!-- blank line -->
 
