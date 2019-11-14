@@ -36,6 +36,6 @@ tags: [Unity2d, gameDev]
 
 
  <!-- blank line -->
-  <iframe src="https://ttruty.github.io/JackBox.html" frameborder="1" allowfullscreen="true" width="800" height="600"> </iframe>
+  <iframe src="https://ttruty.github.io/JackBox.html" frameborder="1" allowfullscreen="true" width="1000" height="800"> </iframe>
 <!-- blank line -->
 
