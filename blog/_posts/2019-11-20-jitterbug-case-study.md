@@ -25,13 +25,11 @@ tags: [business, tech, innovation]
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
 
-## ![](https://lh4.googleusercontent.com/65k6td8_sGONOjg4hmwZf1PaNLAaVNSgPoXzUlb69vJxTrCdXKV0RedMbdJoyo8cdL8JYhDi4Xtv8dE73uWBZbznyvQFlyn2eTPDbnsCcrkIO7GYYSiD5r1Bz9dJXUOz3tv82-aK "horizontal line")
+# GREATCALL AND THE JITTERBUG PHONE:
+## INNOVATING AGING IN PLACE
 
 ![](https://lh6.googleusercontent.com/zBuz8nr1-yn32AngHgaUVY2d2vU8KV2DTDwFJvJXAEvKOJCFrNDpsOIoK-0MeObvC6Kj9To7mAhZFj1DTw-SELee4tJrQPEQzwcbzEtyYmPL_csldaiiWUydZf3TO3WY3qdzNvND "Placeholder image")
 
-
-# GREATCALL AND THE JITTERBUG PHONE:
-## INNOVATING AGING IN PLACE
 
 ### Growing Aging Population
 
