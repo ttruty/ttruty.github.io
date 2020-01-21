@@ -58,3 +58,5 @@ As an addition starting in unity 2019.3 Unity released a preview package to inte
 - Build with [ Unity Snaps Sci-fi free asset](https://assetstore.unity.com/packages/3d/environments/sci-fi/snaps-prototype-sci-fi-industrial-136759) from asset store.
 
 ### This project will continue to be developed to make a working escape room vertical slice. Stay Tuned for more updates
+
+Github for project can be found: [here](https://github.com/ttruty/VR-EscapeRoom-VS)
