@@ -32,6 +32,8 @@ tags: [Vr, dev]
 
 As an addition starting in unity 2019.3 Unity released a preview package to integrating XR/VR management and interactions natively. Read about it at the [Unity Blog here](https://blogs.unity3d.com/2019/12/17/xr-interaction-toolkit-preview-package-is-here/)
 
+### Click Image to view youtube sample of XR Interaction
+
 [![](http://img.youtube.com/vi/BZ8uPCwh034/0.jpg)](http://www.youtube.com/watch?v=BZ8uPCwh034 "XR Interaction")
 
 - This is the initial demo project for use of the interaction tools of the XR toolkit
