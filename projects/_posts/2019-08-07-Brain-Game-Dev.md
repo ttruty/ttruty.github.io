@@ -7,7 +7,7 @@ title: Sample Brain Game Project
 image: assets/img/braingame/bmbg1.png
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-    A sample brain game made with Unity. This is a WebGL build that is deployed to the web and this site. Simple control and navigation to demostrate a grasp of Unity and controls.
+    A sample brain game made with Unity. This is a WebGL build that is deployed to the web and this site. Simple control and navigation to demonstrate a grasp of Unity and controls.
 
 
 # (Optional) Link to an image that represents your blog post.
@@ -44,14 +44,14 @@ tags: [gamedev, Unity2d, dev]
 
 ![Game menu]({{ "assets/img/braingame/menu3.png" | absolute_url }})
 
-- The take away from this game is a persisten highscore
+- The take away from this game is a persistent high-score
 
 ### Key take aways
 - Menu navigation
 - Sounds and persistent music and volume control
-- PlayerPerf to save highscore
+- PlayerPerf to save high-score
 
-### Future Developemt
+### Future Development
 - This framework allows more games to be added and can be a general game navigational menu framework
 
 

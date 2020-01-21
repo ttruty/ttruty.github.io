@@ -7,7 +7,7 @@ title: Simple Step Tracking Project
 image: assets/img/sst/steptrackerimage.png
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-    A rapid prototyple to allow step tracking at foot level. Use case is to validate step tracking algorithms for wrist worns or other biomechanical devices. The device is wore around the ankle. The two main sensors are the force sensitive resistor (FSR) and an accelerometer/gyroscope module. The readings from these sensors are output to an SD card located on the device. Device is powered with a LiPo battery.
+    A rapid prototype to allow step tracking at foot level. Use case is to validate step tracking algorithms for wrist worn or other biomechanical devices. The device is wore around the ankle. The two main sensors are the force sensitive resistor (FSR) and an accelerometer/gyroscope module. The readings from these sensors are output to an SD card located on the device. Device is powered with a LiPo battery.
 
 
 # (Optional) Link to an image that represents your blog post.

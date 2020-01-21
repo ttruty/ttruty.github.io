@@ -7,7 +7,7 @@ title: Granny Game
 image: assets/img/grannypost/game.jpg
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-    A rapid development project to showcase some game design skills with unity. The entire game was put together in about 3 days. It includes a menu, gameplay, and firebase connected leaderboard.
+    A rapid development project to showcase some game design skills with unity. The entire game was put together in about 3 days. It includes a menu, game-play, and firebase connected leader-board.
 
 
 # (Optional) Link to an image that represents your blog post.
@@ -28,10 +28,10 @@ tags: [Unity2d, gameDev]
 
 #  Granny Game
 ## Rapid design and creation of Unity2D game
-> A rapid development project to showcase some game design skills with unity. The entire game was put together in about 3 days. It includes a menu, gameplay, and firebase connected leaderboard. All connected with C#.
+> A rapid development project to showcase some game design skills with unity. The entire game was put together in about 3 days. It includes a menu, game-play, and firebase connected leader-board. All connected with C#.
  - The game itself has elements of frogger as a platformer.
  - Homemade player sprites, sounds and interactions
- - The connected firebase database will records and update the leaderboard live and persistently
+ - The connected firebase database will records and update the leader-board live and persistently
  - Secret codes are also in the game, try the konomi code on menu screen
 
 

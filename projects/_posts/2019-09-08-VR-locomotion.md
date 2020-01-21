@@ -7,7 +7,7 @@ title: VR Locomotion Paradigms
 image: assets/img/VRimg.jpg
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-    A proof of concept for different locomotion in the Oculus Go Virtual Reality device. The main take away from this project is the connectiong of a prototype bluetooth device. This development makes it possible to create custom-made peripherals for users based on needs, frailty or disability.
+    A proof of concept for different locomotion in the Oculus Go Virtual Reality device. The main take away from this project is the connection of a prototype bluetooth device. This development makes it possible to create custom-made peripherals for users based on needs, frailty or disability.
 
 
 # (Optional) Link to an image that represents your blog post.
