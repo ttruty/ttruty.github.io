@@ -34,7 +34,7 @@ As an addition starting in unity 2019.3 Unity released a preview package to inte
 
 ### Click Image to view youtube sample of XR Interaction
 
-[![](http://img.youtube.com/vi/BZ8uPCwh034/0.jpg)](http://www.youtube.com/watch?v=BZ8uPCwh034 "XR Interaction")
+[![](http://img.youtube.com/vi/9jHPecg3EJE/0.jpg)](http://www.youtube.com/watch?v=9jHPecg3EJE "XR Interaction")
 
 - This is the initial demo project for use of the interaction tools of the XR toolkit
 - Locomotion is through teleporting with a snap turn method
