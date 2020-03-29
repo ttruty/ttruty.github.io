@@ -4,7 +4,7 @@ layout: post
 
 # The title of your post
 title: Video Capture Like a Pro
-image: <<IMAGE>>
+image: assets/img/video-capture-post/people-chatting.png
 # This description is used to preview the page on search engines, social media, etc.
 description: >
   Just some setup and tips for setting up a video stream and ZOOM recording with Overlays and other extras for this time of social distancing. 
