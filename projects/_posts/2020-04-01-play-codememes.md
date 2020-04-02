@@ -7,7 +7,7 @@ title: Play Codememes Online with Friends
 image: assets/img/codememes-info/title.png
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-    A project to show how to play [Codememes](www.buttonmasherbrew.com) online with friends. 
+    A project to show how to play [Codememes](https://www.buttonmasherbrew.com) online with friends. 
 
 
 # (Optional) Link to an image that represents your blog post.
