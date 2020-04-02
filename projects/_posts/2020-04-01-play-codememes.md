@@ -28,7 +28,7 @@ tags: [Board game, dev]
 
 # Codememes
 
-[PLAY IT HERE](www.buttonmasherbrew.com)
+[PLAY IT HERE](https://www.buttonmasherbrew.com)
 
 ## How to play online with friends.
 
