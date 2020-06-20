@@ -28,7 +28,7 @@ tags: [dev, application, arduino]
 
 # Balance Tester
 
-This project shows a demo of a simple home made balance game, the hardware and the software can be made and adapted easily from available parts and open source software. The goal is that anyone can build a simple, fun balance game. This project is aimed towards aging individuals who have balance problems. The game might be able to help train balance and reduce the risks of falls and home.
+This project shows a demo of a simple home made balance game, the hardware and the software can be made and adapted easily from available parts and open source software. The goal is that anyone can build a simple, fun balance game. This project is aimed towards aging individuals who have balance problems. The game might be able to help train balance and reduce the risks of falls at home.
 
 ### Click Image to view sample video of Android Balance Game
 
