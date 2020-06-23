@@ -1,0 +1,22 @@
+{
+  "name": "timtruty",
+  "homepage": "https://timtruty.com",
+  "authors": [
+    "timtruty <ttruty@gmail.com>"
+  ],
+  "description": "Software engineer and research specialist",
+  "main": "",
+  "keywords": [
+    "jekyll-theme",
+    "jekyll",
+    "gallery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
