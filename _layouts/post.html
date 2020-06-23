@@ -11,10 +11,16 @@ layout: default
 <div class="row">
   <div class="col-md-4">
     <div class="card">
-      <div class="card-header">About {{site.author}}</div>
+      <div class="card-header">
+        <a href="/">
+          <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ site.author_logo }}" width=60 />
+        </a>
+        About {{site.author}}</div>
       <div class="card-body">
-        <p class="author_bio">{{ site.author_bio }}</p>
-        {%- include github_star_button.html -%}
+        <p class="author_bio">
+          {{ site.author_bio }}
+        </p>
+        
       </div>
     </div>
   </div>

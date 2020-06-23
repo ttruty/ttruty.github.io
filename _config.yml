@@ -3,7 +3,7 @@ subtitle: Software engineer and research specialist
 description: >- # this means to ignore newlines until "baseurl:"
   Connecting technology and people.
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "timtruty.com" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
@@ -56,16 +56,18 @@ author_education_details:
                 visibility: true
 
 author_project_details:
+              - project_thumbnail: bmbg-logo.jpg
+                project_title: Button Masher Brew
+                project_description: Codememes Project
+                project_url: https://buttonmasherbrew.com
+                visibility: true
               - project_thumbnail: youtube.jpeg
                 project_title: Youtube channel
                 project_description: Tim's youtube channel to demo projects
                 project_url: https://www.youtube.com/user/truty
                 visibility: true
-              - project_thumbnail: github.png
-                project_title: Github Page
-                project_description: View Tim's code projects
-                project_url: https://github.com/ttruty
-                visibility: true
+              
+              
 
 # social links
 twitter_username: trutylicious
