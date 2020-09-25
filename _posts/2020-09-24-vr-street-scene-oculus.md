@@ -2,7 +2,7 @@
 layout: post
 author: Tim Truty
 title: VR Street Scene With Traffic System
-date: 2020-07-7
+date: 2020-09-24
 thumbnail: /assets/img/posts/city.jpg
 category: VR
 summary: Demo project to navigate a street scene with traffic in VR on Oculus Quest
