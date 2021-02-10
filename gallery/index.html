@@ -1,38 +1,25 @@
----
-layout: gallery
-title: Gallery
-permalink: /gallery/
----
-
-
-    <div class="col-lg-8 offset-md-2">
-
-      <div class="row">
-    {% assign count = 0 %}
-    {% assign align = "left" %}
-    {% for gallery in site.data.galleries.overview %}
-    {% if count == 0 %}<div class="row">{% endif %}
-      <div class="card">
-        <div class="card-title"> {{gallery.title}}</div>
-        <div class="row">
-
-        <a href="{{ site.url }}{{ site.baseurl }}/gallery/{{ gallery.directory }}.html">
-          <img class="img-thumbnail" alt="{{ gallery.title }}" src="{{ site.url }}{{ site.baseurl }}/assets/img/gallery/{% if gallery.picture_path %}{{ gallery.picture_path }}{% else %}{{ gallery.directory }}{% endif %}/{{ gallery.preview.thumbnail }}" />
-        </a>
-        </div>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | JackBox Cover Letter</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/WebBuild.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">JackBox Cover Letter</div>
       </div>
-    {% if count == 1 %}</div>{% endif %}
-    {% assign count = count | plus: 1 %}
-    {% assign align = "right" %}
-    {% if count >= 2 %}
-    {% assign align = "left" %}
-    {% assign count = 0 %}
-    {% endif %}
-    {% endfor %}
-
-    {% if count != 1 %}
     </div>
-    {% endif %}
-
-    </div>
-</div>
+  </body>
+</html>
