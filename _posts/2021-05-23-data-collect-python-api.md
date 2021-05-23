@@ -2,7 +2,7 @@
 layout: post
 author: Tim Truty
 title: Tru-torial- python and API data collection 
-date: 2020-09-24
+date: 2021-05-23
 thumbnail: /assets/img/data-collect-post/data1.png
 category: Trutorial
 summary: A tutorial for data collection from API into SQL databasae
