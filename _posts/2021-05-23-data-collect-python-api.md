@@ -26,7 +26,7 @@ There is a video associated with this tutorial. It assumes zero coding experienc
 The 30,000 foot view of this project is: We will be pulling data from a server and populating database and getting data for a specific horse
 </b>
 
-![Sql 1]({{ "/assets/img/data-collect-post/sql1.png" | absolute_url }})
+![Sql 1]({{ "/assets/img/data-collect-post/sql1.jpg" | absolute_url }})
 
 More specifically: We will be requesting horse and race data from a platform called [ZED Run](https://zed.run/) (An NFT based horse racing platform) and putting that data into a SQL database.
 
