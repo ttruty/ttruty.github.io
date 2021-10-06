@@ -33,6 +33,12 @@ author_website_url: "http://timtruty.com"
 typewrite-text: A researcher with a passion for new tech and connecting people with devices
 
 author_work_experiences:
+            - company_name: Minneapolis Adaptive Design & Engineering Program
+              company_logo: MADE_LOGO.jpg
+              company_url: https://www.va.gov/minneapolis-health-care/programs/minneapolis-adaptive-design-engineering-program/
+              designation: Research Computer Scientist
+              description: Software design, development, and deployment to support adaptive technology. 
+              visibility: true
             - company_name: Northwestern University, HABits Lab
               company_logo: Habits.jpg
               company_url: https://thehabitslab.com
@@ -49,10 +55,16 @@ author_work_experiences:
 
 author_education_details:
               - college_logo: illinois-tech.svg
-                college_name: IIT
+                college_name: Illinois Institute of Technology
                 college_url: https://www.iit.edu/
                 college_degree: ITM, Digital Systems & Embedded Devices
                 description: Masters Applied Technology
+                visibility: true
+              - college_logo: isu.svg
+                college_name: Illinois State University
+                college_url: https://illinoisstate.edu/
+                college_degree: Psychology, Minor- Gerontology
+                description: Bachelor's
                 visibility: true
 
 author_project_details:
