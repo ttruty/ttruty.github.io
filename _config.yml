@@ -28,7 +28,7 @@ author_logo: profile.png
 author: Tim Truty
 author_bio: A researcher with a passion for new tech and connecting people with devices
 author_email: "ttruty@gmail.com"
-author_location: Chicago
+author_location: Minneapolis
 author_website_url: "http://timtruty.com"
 typewrite-text: A researcher with a passion for new tech and connecting people with devices
 
@@ -60,7 +60,7 @@ author_education_details:
                 college_degree: ITM, Digital Systems & Embedded Devices
                 description: Masters Applied Technology
                 visibility: true
-              - college_logo: isu.svg
+              - college_logo: isu.png
                 college_name: Illinois State University
                 college_url: https://illinoisstate.edu/
                 college_degree: Psychology, Minor- Gerontology
