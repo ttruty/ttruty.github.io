@@ -78,6 +78,11 @@ author_project_details:
                 project_description: Tim's youtube channel to demo projects
                 project_url: https://www.youtube.com/user/truty
                 visibility: true
+              - project_thumbnail: ethereum-coin.jpeg
+                project_title: IsCryptoDead Blog
+                project_description: A blog Tim created as a joke, it turned serious
+                project_url: https://iscryptodead.com
+                visibility: true
               
               
 
