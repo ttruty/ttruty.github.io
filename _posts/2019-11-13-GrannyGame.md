@@ -18,6 +18,6 @@ summary: A rapid development project to showcase some game design skills with un
 
 
  <!-- blank line -->
-  <iframe src="https://ttruty.github.io/playgames" frameborder="1" allowfullscreen="true" width="1000" height="800"> </iframe>
+  <iframe src="https://ttruty.github.io/grannygame" frameborder="1" allowfullscreen="true" width="1000" height="800"> </iframe>
 <!-- blank line -->
 
