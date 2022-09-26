@@ -83,6 +83,11 @@ author_project_details:
                 project_description: A blog Tim created as a joke, it turned serious
                 project_url: https://iscryptodead.com
                 visibility: true
+              - project_thumbnail: settld-it.png
+                project_title: Settld-it
+                project_description: A project to help people settle disputes
+                project_url: https://settldit-app.web.app
+                visibility: true
               
               
 
