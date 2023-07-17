@@ -2,7 +2,7 @@
 layout: post
 author: Tim Truty
 title: Building and Deploying an AR App- A Journey of Learning and Accomplishment
-date: 2023-07-10
+date: 2023-07-16
 thumbnail: /assets/img/thread-headz/title.png
 category: Tech
 summary: Woo Hoo - A post that is within a week of a previous post. I did it! Ok, so this is going to be a post about building and deploying an AR app. The app may not be groundbreaking, but it holds a special place in my heart. It marks one of the first Unity projects I completed from start to finish. While I've dabbled in creating games and experiences before (some of which you can find on this blog), this project stands as a fully realized endeavor. I dedicated countless nights and weekends to bring it to life. The app allows users to scan their faces using their smartphones and superimposes an emoji over their heads, saving it as a GIF. Join me as I delve into the process of building and deploying this app, along with the valuable lessons I learned along the way.
