@@ -10,7 +10,7 @@ summary: A project to show how to play Codememes online with friends.
 
 # Codememes
 
-[PLAY IT HERE](https://www.buttonmasherbrew.com)
+[PLAY IT HERE](https://codememes-603998739955.us-central1.run.app)
 
 ## How to play online with friends.
 
