@@ -69,9 +69,9 @@ author_education_details:
 
 author_project_details:
               - project_thumbnail: bmbg-logo.jpg
-                project_title: Codememes Project
-                project_description: Codenames game with meme and gifs with web hooks
-                project_url: https://codememes-603998739955.us-central1.run.app
+                project_title: Button Masher Brew Games
+                project_description: Itch.io games page
+                project_url: https://buttonmasherbrew.com
                 visibility: true
               - project_thumbnail: youtube.jpeg
                 project_title: Youtube channel
