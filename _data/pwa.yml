@@ -1,0 +1,17 @@
+overview:
+  - title: "Audiobook Player"
+    directory: "yarnbeard"
+    thumbnail: "yarnbeard.png"
+  - title: "Random Reminder"
+    directory: "cando"
+    thumbnail: "cando.png"
+
+# Data for the individual gallery layout (screenshots of the apps)
+yarnbeard:
+  # Add the image properties your gallery-layout.html expects here
+  # example:
+  # - image: screenshot1.png
+  # - image: screenshot2.png
+
+cando:
+  # Add the image properties your gallery-layout.html expects here
