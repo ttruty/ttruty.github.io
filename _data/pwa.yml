@@ -10,7 +10,7 @@ overview:
     thumbnail: "deckfit.png"
   - title: "MindDrive"
     directory: "minddrive"
-    thumbnail: "minddrive.svg"
+    thumbnail: "minddrive.png"
 
 # Data for the individual gallery layout (screenshots of the apps)
 yarnbeard:
