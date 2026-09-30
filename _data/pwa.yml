@@ -5,6 +5,12 @@ overview:
   - title: "Random Reminder"
     directory: "cando"
     thumbnail: "cando.png"
+  - title: "Deckfit"
+    directory: "deckfit"
+    thumbnail: "deckfit.png"
+  - title: "MindDrive"
+    directory: "minddrive"
+    thumbnail: "minddrive.svg"
 
 # Data for the individual gallery layout (screenshots of the apps)
 yarnbeard:
@@ -14,4 +20,10 @@ yarnbeard:
   # - image: screenshot2.png
 
 cando:
+  # Add the image properties your gallery-layout.html expects here
+
+deckfit:
+  # Add the image properties your gallery-layout.html expects here
+
+minddrive:
   # Add the image properties your gallery-layout.html expects here
